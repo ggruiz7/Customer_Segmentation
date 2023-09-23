@@ -1,0 +1,6 @@
+"0","a = table(customer_data$Gender)"
+"0","barplot(a, main=""Using BarPlot to display Gender Comparision"","
+"0","       ylab=""Count"","
+"0","       xlab=""Gender"","
+"0","       col=rainbow(2),"
+"0","       legend=rownames(a))"

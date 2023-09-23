@@ -1,0 +1,36 @@
+---
+title: "C_Segmentation"
+author: "Gabriel Garcia-Ruiz, 917320019"
+date: "2023-09-07"
+output: html_document
+---
+
+...
+
+```{r, echo=FALSE}
+customer_data = read.csv("Mall_Customers.csv")
+```
+
+### Exploratory Analysis
+
+
+```{r, echo=FALSE}
+head(customer_data)
+
+str(customer_data)
+
+names(customer_data)
+```
+
+```{r, echo=FALSE}
+summary(customer_data)
+
+print('S.D. Age:') 
+sd(customer_data$Age)
+
+print('S.D. Annual Income (k):')
+sd(customer_data$Annual.Income..k..)
+
+print('S.D. Spending Score:')
+sd(customer_data$Spending.Score..1.100.)
+```
